@@ -3,6 +3,7 @@ use_frameworks!
 source 'https://git.kujiang.net/appgroup/ioskit/kujiang-specs.git'
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 source 'https://github.com/volcengine/volcengine-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '12.0'
 
