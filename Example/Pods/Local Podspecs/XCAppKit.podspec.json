@@ -1,0 +1,80 @@
+{
+  "name": "XCAppKit",
+  "version": "1.0.0",
+  "summary": "公共基础库.",
+  "description": "公共基础库.",
+  "homepage": "https://github.com/xucheng/XCAppKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xucheng": "836290600@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xucheng/XCAppKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "XCAppKit/Classes/**/*",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64",
+    "DEFINES_MODULE": "YES",
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "RxSwift": [
+      "~> 6.5.0"
+    ],
+    "RxCocoa": [
+      "~> 6.5.0"
+    ],
+    "RxDataSources": [
+      "~> 5.0.0"
+    ],
+    "NSObject+Rx": [
+      "~> 5.2.2"
+    ],
+    "SVProgressHUD": [
+      "~> 2.2.5"
+    ],
+    "SnapKit": [
+      "~> 5.6.0"
+    ],
+    "MJRefresh": [
+      "~> 3.7.5"
+    ],
+    "Kingfisher": [
+      "~> 6.3.1"
+    ],
+    "ReusableKit": [
+      "3.0.0"
+    ],
+    "HandyJSON": [
+      "~> 5.0.2"
+    ],
+    "LKDBHelper": [
+      "~> 2.6.0"
+    ],
+    "MMKV": [
+      "1.2.14"
+    ],
+    "CocoaLumberjack/Swift": [
+
+    ]
+  },
+  "xcconfig": {
+    "CLANG_WARN_DOCUMENTATION_COMMENTS": "NO"
+  },
+  "swift_version": "5.0"
+}

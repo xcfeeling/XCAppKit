@@ -1,10 +1,30 @@
 use_frameworks!
 
-platform :ios, '10.0'
+source 'https://git.kujiang.net/appgroup/ioskit/kujiang-specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://github.com/volcengine/volcengine-specs.git'
+
+platform :ios, '12.0'
 
 target 'XCAppKit_Example' do
   pod 'XCAppKit', :path => '../'
 
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+        end
+      end
+      if target.name == 'RxSwift'
+          target.build_configurations.each do |config|
+              if config.name == 'Debug'
+                  config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_RESOURCES']
+              end
+          end
+      end
+    end
+  end
   target 'XCAppKit_Tests' do
     inherit! :search_paths
 

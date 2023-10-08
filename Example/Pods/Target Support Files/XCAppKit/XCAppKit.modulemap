@@ -1,0 +1,6 @@
+framework module XCAppKit {
+  umbrella header "XCAppKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
