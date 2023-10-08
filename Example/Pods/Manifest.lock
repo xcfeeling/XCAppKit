@@ -38,7 +38,7 @@ PODS:
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
   - SVProgressHUD (2.2.5)
-  - XCAppKit (1.0.0):
+  - XCAppKit (1.0.1):
     - CocoaLumberjack/Swift
     - HandyJSON (~> 5.0.2)
     - Kingfisher (~> 6.3.1)
@@ -102,8 +102,8 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  XCAppKit: 16820f976e6c34f6a1c8cde32132fe00deba33c0
+  XCAppKit: 44a51a2cb00dceb5caff337fd599c4bf954fa659
 
-PODFILE CHECKSUM: 7060edd0afc6c863b03f33ece357a393be76bc55
+PODFILE CHECKSUM: 4a70f4cc92f8a2d22e8c33c9488c4a8100c0fbb1
 
 COCOAPODS: 1.12.1
