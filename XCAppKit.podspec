@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCAppKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '公共基础库.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
       公共基础库.
                        DESC
 
-  s.homepage         = 'https://github.com/xucheng/XCAppKit'
+  s.homepage         = 'https://github.com/xcfeeling/XCAppKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xucheng' => '836290600@qq.com' }
-  s.source           = { :git => 'https://github.com/xucheng/XCAppKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xcfeeling/XCAppKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'

@@ -1,9 +1,9 @@
 {
   "name": "XCAppKit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "公共基础库.",
   "description": "公共基础库.",
-  "homepage": "https://github.com/xucheng/XCAppKit",
+  "homepage": "https://github.com/xcfeeling/XCAppKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "xucheng": "836290600@qq.com"
   },
   "source": {
-    "git": "https://github.com/xucheng/XCAppKit.git",
-    "tag": "1.0.2"
+    "git": "https://github.com/xcfeeling/XCAppKit.git",
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "12.0"
