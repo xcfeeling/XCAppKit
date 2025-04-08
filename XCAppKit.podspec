@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCAppKit'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '公共基础库.'
 
 # This description is used to generate tags and improve search results.
@@ -44,8 +44,10 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-  'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'  }
+  s.user_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 armv7 arm64',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'  }
   
   s.frameworks = 'UIKit'
 
