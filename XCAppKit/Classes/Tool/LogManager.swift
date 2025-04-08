@@ -2,7 +2,7 @@
 //  LogManager.swift
 //  Common
 //
-//  Created by xucheng on 2022/2/8.
+//  Created by Charles on 2022/2/8.
 //
 
 import Foundation

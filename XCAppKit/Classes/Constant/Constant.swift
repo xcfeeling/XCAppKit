@@ -19,7 +19,9 @@ import Foundation
 
 public let kKeyWindow = UIApplication.shared.keyWindow ?? UIWindow()
 
-public let kRootVC = kKeyWindow.rootViewController ?? UIViewController()
+public var kRootVC: UIViewController {
+    return kKeyWindow.rootViewController ?? UIViewController()
+}
 
 public let kScreenWidth = UIScreen.main.bounds.width
 public let kScreenHeight = UIScreen.main.bounds.height

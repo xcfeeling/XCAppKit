@@ -2,7 +2,7 @@
 //  Method.swift
 //  ReadLib
 //
-//  Created by xucheng on 2020/11/3.
+//  Created by 陈品 on 2020/11/3.
 //  Copyright © 2020 陈品. All rights reserved.
 //
 
@@ -74,6 +74,7 @@ public let FORMAT_DATE_TIME_HOUR = "yyyy年MM月dd日 HH点"
 /// 获取当前时间传入 时间格式 "YYYY-MM-dd-HH-mm-ss"
 public func GetCurrentTimerString(dateFormat:String) -> String {
     let dateformatter = DateFormatter()
+    dateformatter.locale = Locale(identifier: "en_US_POSIX")
 
     dateformatter.dateFormat = dateFormat
 
@@ -83,6 +84,7 @@ public func GetCurrentTimerString(dateFormat:String) -> String {
 /// 将 时间 根据 类型 转成 时间字符串
 public func GetTimerString(dateFormat:String, date:Date) -> String {
     let dateformatter = DateFormatter()
+    dateformatter.locale = Locale(identifier: "en_US_POSIX")
 
     dateformatter.dateFormat = dateFormat
 

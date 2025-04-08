@@ -9,7 +9,6 @@
 import Foundation
 import CommonCrypto
 import CryptoKit
-import Kingfisher
 
 public extension String {
     /**

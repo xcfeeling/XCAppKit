@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Kingfisher
+import Nuke
 
 public extension UIImageView {
     public func asAvatar(cornerRadius: CGFloat = 4) {
@@ -14,14 +14,25 @@ public extension UIImageView {
         layer.cornerRadius = cornerRadius
     }
     
-    public func setImage(with
-        url: String?,
-        placeholder: Placeholder? = nil,
-        options: KingfisherOptionsInfo? = nil)
-    {
-        if let imageUrl = url {
-            kf.setImage(with: URL(string: imageUrl), placeholder: placeholder, options: options)
+    public func setImage(
+        with url: String?,
+        placeholder: UIImage? = nil,
+        priority: ImageRequest.Priority = .normal
+    ) {
+        guard let urlString = url, let imageUrl = URL(string: urlString) else {
+            self.image = placeholder
+            return
         }
+
+        let request = ImageRequest(url: imageUrl, priority: priority)
+
+        let options = ImageLoadingOptions(
+            placeholder: placeholder,
+            transition: .fadeIn(duration: 0.3)
+        )
+
+        Nuke.loadImage(with: request, options: options, into: self)
+
     }
 }
 

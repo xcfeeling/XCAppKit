@@ -2,7 +2,7 @@
 //  UserDefaultsHelper.swift
 //  KuJiangNovel
 //
-//  Created by xucheng on 2018/9/7.
+//  Created by 陈品 on 2018/9/7.
 //  Copyright © 2018年 陈品. All rights reserved.
 //
 

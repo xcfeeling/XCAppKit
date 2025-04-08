@@ -59,8 +59,9 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD', '~> 2.2.5'
   s.dependency 'SnapKit', '~> 5.6.0'
   s.dependency 'MJRefresh', '~> 3.7.5'
-  s.dependency 'Kingfisher', '~> 6.3.1'
   
+  s.dependency 'Nuke', '~> 10.0'
+
   s.dependency 'ReusableKit', '3.0.0'
   s.dependency 'HandyJSON', '~> 5.0.2'
   s.dependency 'LKDBHelper', '~> 2.6.0'

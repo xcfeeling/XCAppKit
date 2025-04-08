@@ -12,7 +12,6 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - HandyJSON (5.0.2)
-  - Kingfisher (6.3.1)
   - LKDBHelper (2.6.0):
     - LKDBHelper/standard (= 2.6.0)
   - LKDBHelper/standard (2.6.0):
@@ -23,6 +22,7 @@ PODS:
   - MMKVCore (1.2.16)
   - "NSObject+Rx (5.2.2)":
     - RxSwift (~> 6.2)
+  - Nuke (10.7.1)
   - ReusableKit (3.0.0):
     - ReusableKit/Core (= 3.0.0)
   - ReusableKit/Core (3.0.0)
@@ -41,11 +41,11 @@ PODS:
   - XCAppKit (1.0.3):
     - CocoaLumberjack/Swift
     - HandyJSON (~> 5.0.2)
-    - Kingfisher (~> 6.3.1)
     - LKDBHelper (~> 2.6.0)
     - MJRefresh (~> 3.7.5)
     - MMKV (= 1.2.14)
     - "NSObject+Rx (~> 5.2.2)"
+    - Nuke (~> 10.0)
     - ReusableKit (= 3.0.0)
     - RxCocoa (~> 6.5.0)
     - RxDataSources (~> 5.0.0)
@@ -63,12 +63,12 @@ SPEC REPOS:
     - Differentiator
     - FMDB
     - HandyJSON
-    - Kingfisher
     - LKDBHelper
     - MJRefresh
     - MMKV
     - MMKVCore
     - "NSObject+Rx"
+    - Nuke
     - ReusableKit
     - RxCocoa
     - RxDataSources
@@ -89,12 +89,12 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
   LKDBHelper: 58982cb63832355860a64fed34c381f34e535fbd
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   MMKV: 9c4663aa7ca255d478ff10f2f5cb7d17c1651ccd
   MMKVCore: 9cfef4c48c6c46f66226fc2e4634d78490206a48
   "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
   ReusableKit: e5f853ad4652e411f96b6119b2488afa12929be6
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
@@ -102,8 +102,8 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  XCAppKit: 779c83a3c940d22d5d045077aed7d0750c999b81
+  XCAppKit: 42c0e5d7bbd7dadd438059d4a7fd824d61141f0f
 
 PODFILE CHECKSUM: 08f26b998cf6d6e94bcfc4cc79a5a48b9ee5d58a
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2

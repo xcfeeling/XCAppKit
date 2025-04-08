@@ -19,7 +19,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'XCAppKit'
 ```
+## Update
+1.0.3 基础库优化
 
+1.0.4 修改图片库，使用Nuke替代Kingfisher
+增加了 deiviceid 工具类
 ## Author
 
 xucheng, 836290600@qq.com
