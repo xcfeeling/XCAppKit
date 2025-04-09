@@ -25,11 +25,11 @@
     "DEFINES_MODULE": "YES",
     "ENABLE_BITCODE": "NO",
     "OTHER_LDFLAGS": "$(inherited) -ObjC",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": ""
   },
   "user_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "",
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   },
   "frameworks": "UIKit",
