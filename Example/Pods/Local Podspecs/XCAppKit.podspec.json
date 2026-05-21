@@ -2,7 +2,7 @@
   "name": "XCAppKit",
   "version": "1.0.4",
   "summary": "公共基础库.",
-  "description": "公共基础库.",
+  "description": "公共基础库.是一个更加详细的描述，包含了该库的主要功能、使用场景以及优势等信息。",
   "homepage": "https://github.com/xcfeeling/XCAppKit.git",
   "license": {
     "type": "MIT",
@@ -25,11 +25,11 @@
     "DEFINES_MODULE": "YES",
     "ENABLE_BITCODE": "NO",
     "OTHER_LDFLAGS": "$(inherited) -ObjC",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": ""
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "user_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   },
   "frameworks": "UIKit",
