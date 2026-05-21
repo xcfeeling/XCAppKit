@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCAppKit'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = '公共基础库.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-      公共基础库.
+      公共基础库.是一个更加详细的描述，包含了该库的主要功能、使用场景以及优势等信息。
                        DESC
 
   s.homepage         = 'https://github.com/xcfeeling/XCAppKit.git'
@@ -52,14 +52,14 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
 
   # Rx Extensions
-  s.dependency 'RxSwift', '~> 6.5.0'
-  s.dependency 'RxCocoa', '~> 6.5.0'
+  s.dependency 'RxSwift', '~> 6.7.0'
+  s.dependency 'RxCocoa', '~> 6.7.0'
   s.dependency 'RxDataSources', '~> 5.0.0'
   s.dependency 'NSObject+Rx', '~> 5.2.2'
   
   # UI
-  s.dependency 'SVProgressHUD', '~> 2.2.5'
-  s.dependency 'SnapKit', '~> 5.6.0'
+  s.dependency 'SVProgressHUD', '~> 2.3.0'
+  s.dependency 'SnapKit', '~> 5.7.0'
   s.dependency 'MJRefresh', '~> 3.7.5'
   
   s.dependency 'Nuke', '~> 10.0'
