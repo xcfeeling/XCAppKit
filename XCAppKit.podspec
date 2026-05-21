@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCAppKit'
-  s.version          = '1.0.5'
+  s.version          = '1.1.0'
   s.summary          = '公共基础库.'
 
 # This description is used to generate tags and improve search results.
@@ -52,8 +52,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
 
   # Rx Extensions
-  s.dependency 'RxSwift', '~> 6.7.0'
-  s.dependency 'RxCocoa', '~> 6.7.0'
+  s.dependency 'RxSwift', '~> 6.8.0'
+  s.dependency 'RxCocoa', '~> 6.8.0'
   s.dependency 'RxDataSources', '~> 5.0.0'
   s.dependency 'NSObject+Rx', '~> 5.2.2'
   
